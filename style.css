@@ -1,0 +1,29 @@
+body {
+  background-image: url(./public/img/Background_picture.webp);
+  background-size: cover;
+}
+
+.item-first {
+  background-image: url(./public/img/Left-side-pic1.webp);
+}
+.item-second {
+  background-image: url(./public/img/Left-side-pic2.webp);
+}
+.item-third {
+  background-image: url(./public/img/Left-side-pic3.webp);
+}
+.item-fourth {
+  background-image: url(./public/img/Center-pic.webp);
+  width: 491px;
+  height: 488px;
+}
+.item-fifth {
+  background-image: url(./public/img/Right-side-pic1.webp);
+}
+.item-sixth {
+  background-image: url(./public/img/Right-side-pic2.webp);
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}

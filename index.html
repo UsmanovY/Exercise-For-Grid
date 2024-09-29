@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercise For Grid</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="flex flex-col items-center mt-24">
+      <h1 class="text-5xl font-bold leading-10 w-1/2 text-center leading-10">We deliver beautiful and reliable designs
+        you need
+      </h1>
+      <p class="text-2xl font-normal leading-8 w-3/4 text-center mt-10">Lorem ipsum dolor sit amet, consectetur
+        adipiscing
+        elit. Cursus
+        imperdiet sed id elementum.
+        Quam velaliquam sit vulputate. Faucibus nec gravida ipsum pulvinar vel.
+      </p>
+      <button type="button"
+        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-medium px-11 py-3.5 me-6 mb-6 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mt-10">Get
+        started</button>
+    </div>
+    <div>
+      <div class="grid grid-cols-5 grid-rows-2  gap-4 mt-12">
+        <div class="item-first w-full h-56 rounded-3xl relative">
+          <p class="text-base font-normal w-48 text-center absolute bottom-5 pl-8 text-black">Lorem ipsum dolor sit
+            amet,
+            consectetur
+            elit.
+          </p>
+        </div>
+        <div class="item-second w-full h-56 rounded-3xl relative">
+          <p class="text-base font-normal w-48 text-center absolute bottom-5 pl-8 text-black">Lorem ipsum dolor sit
+            amet,
+            consectetur
+            elit.
+          </p>
+        </div>
+        <div class="item-third w-full h-56 rounded-3xl col-span-2 col-start-1 row-start-2 text-3xl font-bold pt-5 pl-6">
+          Title
+          2
+        </div>
+        <div
+          class="item-fourth rounded-3xl col-span-2 row-span-2 col-start-3 row-start-1 text-3xl font-bold text-right pt-5 pr-6">
+          Title 1
+        </div>
+        <div class="item-fifth w-72 h-56 rounded-3xl col-start-5 row-start-1 relative">
+          <p class="text-base font-normal w-48 text-center absolute bottom-5 text-black">Lorem ipsum
+            dolor
+            sit
+            amet,
+            consectetur
+            elit.
+          </p>
+        </div>
+        <div class="item-sixth w-72 h-56 rounded-3xl col-start-5 row-start-2 relative">
+          <p class="text-base font-normal w-48 text-center absolute bottom-5  text-black">Lorem ipsum dolor sit
+            amet,
+            consectetur
+            elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
